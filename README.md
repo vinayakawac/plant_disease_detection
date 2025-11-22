@@ -190,7 +190,7 @@ docker-compose down
 - **Pepper bell**: Bacterial spot, healthy
 - **Potato**: Early blight, healthy, Late blight
 - **Tomato**: Target Spot, Tomato mosaic virus, Tomato Yellow Leaf Curl Virus, Bacterial spot, Early blight, healthy, Late blight, Leaf Mold, Septoria leaf spot, Spider mites/Two-spotted spider mite.
-Predictions for any category outside this list may not be accurate.
+  Predictions for any category outside this list may not be accurate.
 
 ## Questions or Issues?
 
@@ -206,4 +206,5 @@ This application was created to help farmers and gardeners quickly identify plan
 
 
 **Disclaimer**: This tool is meant to assist in plant disease identification. For serious or uncertain cases, always consult with agricultural experts or extension services.
+
 
