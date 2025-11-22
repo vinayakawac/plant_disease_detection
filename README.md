@@ -186,6 +186,12 @@ docker-compose down
 - **Accuracy**: This is a tool to assist, not replace professional diagnosis
 - **Dataset Folders**: The `archive/` and `PlantVillage/` folders contain training data (~1.7GB) and are excluded from GitHub. The pre-trained model (`plant_disease_model.h5`) is included, so you don't need these folders to run the app.
 
+**These are the only classes and disease types that the model has been trained on. Please note that predictions are limited to the following categories:**
+- **Pepper bell**: Bacterial spot, healthy
+- **Potato**: Early blight, healthy, Late blight
+- **Tomato**: Target Spot, Tomato mosaic virus, Tomato Yellow Leaf Curl Virus, Bacterial spot, Early blight, healthy, Late blight, Leaf Mold, Septoria leaf spot, Spider mites/Two-spotted spider mite
+Predictions for any category outside this list may not be accurate.
+
 ## Questions or Issues?
 
 If something isn't working:
@@ -197,5 +203,6 @@ If something isn't working:
 ## About This Project
 
 This application was created to help farmers and gardeners quickly identify plant diseases and take appropriate action. It uses artificial intelligence trained on thousands of plant images to provide accurate disease detection and practical treatment recommendations.
+
 
 **Disclaimer**: This tool is meant to assist in plant disease identification. For serious or uncertain cases, always consult with agricultural experts or extension services.
